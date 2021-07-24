@@ -1,0 +1,9 @@
+.courseContainer{
+    display: flex;
+    /* background-color: green; */
+    flex-direction: row;
+    width:95%;
+    flex-wrap: wrap;
+    margin:50px auto;
+    
+}

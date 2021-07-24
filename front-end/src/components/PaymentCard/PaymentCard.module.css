@@ -1,0 +1,57 @@
+.form_inputContainer{
+
+}
+.cardPaymentContainer{
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.form_inputContainer{
+    display: flex;
+    flex-direction: column;
+}
+.form_inputContainer input{
+    padding:10px;
+    font-size: 20px;
+}
+.form_inputContainer label{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.cv_details_Container{
+    display: flex;
+    margin-top: 20px;
+}
+.cv_details_Container input{
+    padding:10px;
+    font-size: 20px;
+}
+.payButton{
+    padding:10px;
+    background-color: green;
+    color:white;
+    width:40%;
+    margin:auto;
+    margin-top:20px;
+}
+.otp_container{
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.otp_container label{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.otp_container input{
+    padding:10px;
+    font-size: 20px;
+}
